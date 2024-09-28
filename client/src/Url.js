@@ -1,7 +1,7 @@
 
 // lOCAL AREA
 
-export const BASE_URL = 'http://localhost:5000'
+export const BASE_URL = 'https://data-produk-server-p55oazsg3-martinpsb12gmailcoms-projects.vercel.app'
 
 export const POKE = 'https://pokeapi.co/api/v2/pokemon/ditto'
 

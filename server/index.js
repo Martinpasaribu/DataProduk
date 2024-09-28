@@ -29,7 +29,7 @@ app.use(express.json());
 app.set('trust proxy', 1)
 
 app.use(cors({
-    origin: ["", "https://www.postman.com", "http://localhost:3000", "http://localhost:3001", "http://localhost:5000", "https://martin-pasaribu.vercel.app"],
+    origin: ["", "https://www.postman.com", "http://localhost:3000", "http://localhost:3001", "http://localhost:5000", "https://martin-pasaribu.vercel.app","https://data-produk-client.vercel.app"],
     methods: ["POST", "GET", "PATCH", "DELETE",'PUT', "OPTIONS"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
